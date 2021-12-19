@@ -5,44 +5,9 @@ layout: default
 <body
     class="page-template-default page page-id-305 et_pb_button_helper_class et_fixed_nav et_show_nav et_hide_primary_logo et_hide_fixed_logo et_cover_background et_pb_gutter osx et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_left et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et_minified_js et_minified_css">
     <div id="page-container">
-
-
-
-        <header id="main-header" data-height-onload="50">
-            <div class="container clearfix et_menu_container">
-                <div class="logo_container">
-                    <span class="logo_helper"></span>
-                    <a href="../index.html">
-                        <img src="/assets/img/logo.png"
-                            alt="Maui Kite &amp; Wing Fest 2022" id="logo" data-height-percentage="100" />
-                    </a>
-                </div>
-                <div id="et-top-navigation" data-height="50" data-fixed-height="40">
-
-
-                    {% include navigation.html %}
-
-
-
-
-                    <div id="et_mobile_nav_menu">
-                        <div class="mobile_nav closed">
-                            <span class="select_page">Select Page</span>
-                            <span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
-                        </div>
-                    </div>
-                </div> <!-- #et-top-navigation -->
-            </div> <!-- .container -->
-            <div class="et_search_outer">
-                <div class="container et_search_form_container">
-                    <form role="search" method="get" class="et-search-form" action="../index.html">
-                        <input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s"
-                            title="Search for:" />
-                    </form>
-                    <span class="et_close_search_field"></span>
-                </div>
-            </div>
-        </header> <!-- #main-header -->
+    
+        {% include header.html %}
+    
         <div id="et-main-area">
 
             <div id="main-content">
@@ -172,10 +137,5 @@ layout: default
 
 	</div> <!-- #page-container -->
 
-	<script type="text/javascript">
-		var et_animation_data = [{ "class": "et_pb_button_7", "style": "bounce", "repeat": "once", "duration": "250ms", "delay": "300ms", "intensity": "50%", "starting_opacity": "0%", "speed_curve": "ease-in-out" }, { "class": "et_pb_button_10", "style": "bounce", "repeat": "once", "duration": "300ms", "delay": "300ms", "intensity": "50%", "starting_opacity": "0%", "speed_curve": "ease-in-out" }];
-	</script>
-	<script type='text/javascript'
-		src='/assets/js/lazy-slides.js'
-		id='lazysizes-js'></script>
+    {% include scripts.html %}
 </body>

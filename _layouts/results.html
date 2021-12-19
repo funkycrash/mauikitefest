@@ -5,44 +5,9 @@ layout: default
 <body
     class="page-template-default page page-id-673 et_pb_button_helper_class et_fixed_nav et_show_nav et_hide_primary_logo et_hide_fixed_logo et_cover_background et_pb_gutter osx et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_left et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et_minified_js et_minified_css">
     <div id="page-container">
-        <header id="main-header" data-height-onload="50">
-            <div class="container clearfix et_menu_container">
-                <div class="logo_container">
-                    <span class="logo_helper"></span>
-                    <a href="../index.html">
-                        <img src="https://secureservercdn.net/50.62.194.30/590.2ab.myftpupload.com/wp-content/uploads/2019/12/Unknown.png"
-                            alt="Maui Kite &amp; Wing Fest 2022" id="logo" data-height-percentage="100" />
-                    </a>
-                </div>
-                <div id="et-top-navigation" data-height="50" data-fixed-height="40">
-                    {% include navigation.html %}
-
-
-
-
-                    <div id="et_mobile_nav_menu">
-                        <div class="mobile_nav closed">
-                            <span class="select_page">Select Page</span>
-                            <span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
-                        </div>
-                    </div>
-                </div> <!-- #et-top-navigation -->
-            </div> <!-- .container -->
-            <div class="et_search_outer">
-                <div class="container et_search_form_container">
-                    <form role="search" method="get" class="et-search-form" action="../index.html">
-                        <input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s"
-                            title="Search for:" />
-                    </form>
-                    <span class="et_close_search_field"></span>
-                </div>
-            </div>
-        </header> <!-- #main-header -->
+        {% include header.html %}
         <div id="et-main-area">
-
             <div id="main-content">
-
-
 
                 <article id="post-673" class="post-673 page type-page status-publish hentry">
 
@@ -109,30 +74,7 @@ layout: default
 
 
     </div> <!-- #page-container -->
-
-    <script type="text/javascript">
-        var et_animation_data = [];
-    </script>
-    <script type='text/javascript' id='divi-custom-script-js-extra'>
-        /* <![CDATA[ */
-        var DIVI = { "item_count": "%d Item", "items_count": "%d Items" };
-        var et_shortcodes_strings = { "previous": "Previous", "next": "Next" };
-        var et_pb_custom = { "ajaxurl": "https:\/\/mauikitefest.com\/wp-admin\/admin-ajax.php", "images_uri": "https:\/\/mauikitefest.com\/wp-content\/themes\/Divi\/images", "builder_images_uri": "https:\/\/mauikitefest.com\/wp-content\/themes\/Divi\/includes\/builder\/images", "et_frontend_nonce": "178ffabbb7", "subscription_failed": "Please, check the fields below to make sure you entered the correct information.", "et_ab_log_nonce": "07dfe43359", "fill_message": "Please, fill in the following fields:", "contact_error_message": "Please, fix the following errors:", "invalid": "Invalid email", "captcha": "Captcha", "prev": "Prev", "previous": "Previous", "next": "Next", "wrong_captcha": "You entered the wrong number in captcha.", "is_builder_plugin_used": "", "ignore_waypoints": "no", "is_divi_theme_used": "1", "widget_search_selector": ".widget_search", "is_ab_testing_active": "", "page_id": "673", "unique_test_id": "", "ab_bounce_rate": "5", "is_cache_plugin_active": "no", "is_shortcode_tracking": "" };
-        var et_pb_box_shadow_elements = [];
-/* ]]> */
-    </script>
-    <script type='text/javascript'
-        src='https://secureservercdn.net/50.62.194.30/590.2ab.myftpupload.com/wp-content/themes/Divi/js/custom.min.js?ver=3.3.1&amp;time=1639246185'
-        id='divi-custom-script-js'></script>
-    <script type='text/javascript'
-        src='https://secureservercdn.net/50.62.194.30/590.2ab.myftpupload.com/wp-content/plugins/divi-builder/core/admin/js/common.js?ver=3.3.1&amp;time=1639246185'
-        id='et-core-common-js'></script>
-    <script type='text/javascript'
-        src='https://secureservercdn.net/50.62.194.30/590.2ab.myftpupload.com/wp-content/plugins/lazy-loading-responsive-images/js/lazysizes.min.js?ver=5.8.2&amp;time=1639246185'
-        id='lazysizes-js'></script>
-    <script type='text/javascript'
-        src='https://secureservercdn.net/50.62.194.30/590.2ab.myftpupload.com/wp-includes/js/wp-embed.min.js?ver=5.8.2&amp;time=1639246185'
-        id='wp-embed-js'></script>
+    {% include scripts.html %}
 </body>
 
 </html>

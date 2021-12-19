@@ -480,30 +480,7 @@
 
 
 	</div> <!-- #page-container -->
-
-	<script type="text/javascript">
-		var et_animation_data = [];
-	</script>
-	<script type='text/javascript' id='divi-custom-script-js-extra'>
-		/* <![CDATA[ */
-		var DIVI = { "item_count": "%d Item", "items_count": "%d Items" };
-		var et_shortcodes_strings = { "previous": "Previous", "next": "Next" };
-		var et_pb_custom = { "ajaxurl": "https:\/\/mauikitefest.com\/wp-admin\/admin-ajax.php", "images_uri": "https:\/\/mauikitefest.com\/wp-content\/themes\/Divi\/images", "builder_images_uri": "https:\/\/mauikitefest.com\/wp-content\/themes\/Divi\/includes\/builder\/images", "et_frontend_nonce": "178ffabbb7", "subscription_failed": "Please, check the fields below to make sure you entered the correct information.", "et_ab_log_nonce": "07dfe43359", "fill_message": "Please, fill in the following fields:", "contact_error_message": "Please, fix the following errors:", "invalid": "Invalid email", "captcha": "Captcha", "prev": "Prev", "previous": "Previous", "next": "Next", "wrong_captcha": "You entered the wrong number in captcha.", "is_builder_plugin_used": "", "ignore_waypoints": "no", "is_divi_theme_used": "1", "widget_search_selector": ".widget_search", "is_ab_testing_active": "", "page_id": "958", "unique_test_id": "", "ab_bounce_rate": "5", "is_cache_plugin_active": "no", "is_shortcode_tracking": "" };
-		var et_pb_box_shadow_elements = [];
-/* ]]> */
-	</script>
-	<script type='text/javascript'
-		src='https://secureservercdn.net/50.62.194.30/590.2ab.myftpupload.com/wp-content/themes/Divi/js/custom.min.js?ver=3.3.1&amp;time=1639246185'
-		id='divi-custom-script-js'></script>
-	<script type='text/javascript'
-		src='https://secureservercdn.net/50.62.194.30/590.2ab.myftpupload.com/wp-content/plugins/divi-builder/core/admin/js/common.js?ver=3.3.1&amp;time=1639246185'
-		id='et-core-common-js'></script>
-	<script type='text/javascript'
-		src='https://secureservercdn.net/50.62.194.30/590.2ab.myftpupload.com/wp-content/plugins/lazy-loading-responsive-images/js/lazysizes.min.js?ver=5.8.2&amp;time=1639246185'
-		id='lazysizes-js'></script>
-	<script type='text/javascript'
-		src='https://secureservercdn.net/50.62.194.30/590.2ab.myftpupload.com/wp-includes/js/wp-embed.min.js?ver=5.8.2&amp;time=1639246185'
-		id='wp-embed-js'></script>
+	{% include scripts.html %}
 </body>
 
 </html>
