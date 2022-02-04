@@ -61,6 +61,30 @@
 			transition: opacity 300ms;
 			transition: opacity var(--lazy-loader-animation-duration);
 		}
+
+		.container {
+			display: flex;
+			flex-direction: row-reverse;
+			}
+			.container p, .container small {
+				color: #333;
+			}
+			.container > .image {
+			flex: 1 0 0%;
+			text-align:right;/* and here*/
+			}
+			.image > img {
+			vertical-align:top;/* here */
+			max-width: 100%;
+			max-height: 300px;
+			}
+			.container > .text {
+			flex: 2 0 0%;
+			/* and eventually */
+			
+			margin:auto 0;
+			}
+
 	</style><noscript>
 		<style>
 			.lazyload {
@@ -207,12 +231,19 @@
 
 															<div
 																class="et_pb_with_border et_pb_module et_pb_text et_pb_text_3 et_pb_bg_layout_light  et_pb_text_align_left">
-									
-									
-																<div class="et_pb_text_inner">
-																	<a href="https://mailchi.mp/4356c2608ec2/mauikiteandwingfest2022-15762773" target="_blank"><h3><strong>A new era for the usa's premier kiteboarding and wing surfing event</strong></h3>
-																	<h5><span style="font-weight: 400; line-height: 1.5;">Wind enthusiasts around the world are beyond stoked that 2022 welcomes the now-famous Maui Kite & Wing Fest back to Hawaiian waters. </span></h5></a>
-																</div>
+
+																<a href="https://mailchi.mp/4356c2608ec2/mauikiteandwingfest2022-15762773" target="_blank">
+																<div class="container">
+																	<div class="image">
+																	  <img src="https://mcusercontent.com/fac5d3d47a73a6afdefe3f2c5/images/4d03f506-6b48-a05e-ed96-b01fda17c893.jpg">
+																	</div>
+																	<div class="text">
+																		<p>February 2022</p>
+																		<h3><strong>A new era for the usa's premier kiteboarding and wing surfing event</strong></h3>
+																		<p>Wind enthusiasts around the world are beyond stoked that 2022 welcomes the now-famous Maui Kite & Wing Fest back to Hawaiian waters. </p>
+																	</div>
+																  </div>
+																</a>
 															</div> <!-- .et_pb_text -->
                                                             <br/><br/>
 
@@ -221,21 +252,43 @@
 									
 									
 																<div class="et_pb_text_inner">
-																	<a href="https://mailchi.mp/d989129c0341/the-2nd-annual-maui-kite-fest-was-a-massive-success-169321" target="_blank"><h3><strong>The 2nd Annual Maui Kite Fest</strong></h3>
-																	<h5><span style="font-weight: 400;">The 2nd Annual Maui Kite Fest was a massive success bringing together 69 riders from across the globe</span></h5></a>
+																	<a href="https://mailchi.mp/d989129c0341/the-2nd-annual-maui-kite-fest-was-a-massive-success-169321" target="_blank"><h3><strong></strong></h3>
+																	<h5><span style="font-weight: 400;"></span></h5></a>
 																</div>
 															</div> <!-- .et_pb_text -->
+
+															<a href="https://mailchi.mp/d989129c0341/the-2nd-annual-maui-kite-fest-was-a-massive-success-169321" target="_blank">
+																<div class="container">
+																	<div class="image">
+																	  <img src="https://gallery.mailchimp.com/fac5d3d47a73a6afdefe3f2c5/images/c0b54381-4346-4a8e-9d9a-2a367b169579.jpg">
+																	</div>
+																	<div class="text"><p>February 2020</p>
+																		<h3><strong>The 2nd Annual Maui Kite Fest</strong></h3>
+																		<p>The 2nd Annual Maui Kite Fest was a massive success bringing together 69 riders from across the globe</p>
+																	</div>
+																  </div>
+																</a>
+
                                                             <br/><br/>
-                                                            <div
-																class="et_pb_with_border et_pb_module et_pb_text et_pb_text_3 et_pb_bg_layout_light  et_pb_text_align_left">
-																<div class="et_pb_text_inner">
-																	<a href="https://mailchi.mp/c65441d95ac9/maui-kite-fest-2019-2020-king-of-the-air-qualifier-registration-is-now-open-120669" target="_blank"><h3><strong>King of the air qualifier open</strong></h3>
-																	<h5><span style="font-weight: 400;">Maui Kite Festival 2019</span></h5></a>
-																</div>
-															</div> <!-- .et_pb_text -->
+                                                            
+
+															<a href="https://mailchi.mp/c65441d95ac9/maui-kite-fest-2019-2020-king-of-the-air-qualifier-registration-is-now-open-120669" target="_blank">
+																<div class="container">
+																	<div class="image">
+																	  <img src="https://gallery.mailchimp.com/video_thumbnails_new/307cffd89ccd40d8934843383b4039a0.png">
+																	</div>
+																	<div class="text">
+																		<p>February 2019</p>
+																		<h3><strong>King of the air qualifier open</strong></h3>
+																		<p>Maui Kite Festival 2019</p>
+																	</div>
+																  </div>
+																</a>
 														</div> <!-- .et_pb_column -->
 									
 									
+														
+
 													</div> <!-- .et_pb_row -->
 													
 													
