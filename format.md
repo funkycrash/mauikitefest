@@ -1,6 +1,6 @@
 ---
 layout: format
-title: 'Maui Kite & Wing Fest - Format'
+title: 'Patagonia Maui Kite & Wing Fest - Format'
 permalink: /format
 ---
  
