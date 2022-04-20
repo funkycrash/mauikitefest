@@ -50,6 +50,20 @@
 		.lazyloading {
 			opacity: 0;
 		}
+		#logo-header {
+		width: 75px;
+		padding:10px;
+	}
+
+	.et-fixed-header #logo-header {
+		width: 50px;
+    	padding: 2px;
+	}
+	@media only screen and (max-width: 980px) {
+		.et-fixed-header #logo-header {
+		width: 38px;
+    	padding: 2px;
+	}
 
 		.lazyloaded {
 			opacity: 1;
@@ -124,11 +138,11 @@
 			<div class="container clearfix et_menu_container">
 				<div class="logo_container">
 					<span class="logo_helper"></span>
-					<a href="../index.html">
-						<img src="/assets/img/Gallery/Unknown.png" alt="Maui Kite &amp; Wing Fest 2022" id="logo"
-							data-height-percentage="100" />
-					</a>
 				</div>
+				<a href="/">
+					<img src="/assets/img/patagonia-kite-fest-logo-black.png"
+						alt="Maui Kite &amp; Wing Fest 2022" id="logo-header" />
+				</a>
 				<div id="et-top-navigation" data-height="50" data-fixed-height="40">
 					{% include navigation.html %}
 
